@@ -48,7 +48,7 @@ export default async function Home() {
 
         <footer className='text-sm w-full text-center'>
           <p className='text-gray-light'>
-            © 2023 Copyrights. Do you like this theme? You can get it <a href="#" className='text-warning'>here</a>.
+            © 2023 Copyrights. Do you like this theme? You can get it <a href="https://github.com/rikycg/rikycg-vulcan" target='_blank' className='text-warning'>here</a>.
           </p>
         </footer>
       </InfoProvider>

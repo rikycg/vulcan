@@ -8,5 +8,5 @@ export const firebaseConfig = {
 };
 
 export const sparkPostConfig = {
-  key: 'ea11da9c9385ae86b9d1805e05094345c5abe2dd',
+  key: process.env.NEXT_PUBLIC_SPARKPOST_API_KEY,
 }
