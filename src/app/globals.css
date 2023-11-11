@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'latobold';
+  src: url('../../public/fonts/lato-bold-webfont.woff2') format('woff2'),
+       url('../../public/fonts/lato-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'latomedium';
+  src: url('../../public/fonts/lato-medium-webfont.woff2') format('woff2'),
+       url('../../public/fonts/lato-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'latoregular';
+  src: url('../../public/fonts/lato-regular-webfont.woff2') format('woff2'),
+       url('../../public/fonts/lato-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'latosemibold';
+  src: url('../../public/fonts/lato-semibold-webfont.woff2') format('woff2'),
+       url('../../public/fonts/lato-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+:root {
+  --rik-color-gray-dark: #232121;
+  --rik-color-gray-medium: #474747;
+  --rik-color-gray-light: #c4c4c4;
+  --rik-color-warning: #ffaf12;
+  --rik-lato-regular: 'latoregular';
+  --rik-lato-bold: 'latobold';
+  --rik-lato-medium: 'latomedium';
+  --rik-lato-semibold: 'latosemibold';
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  background-color: var(--rik-color-gray-dark);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--rik-lato-regular);
+  width: 100%;
+  overflow-x: hidden;
+}
+
+label, p, h1, h2, h3 {
+  font-family: var(--rik-lato-regular);
+}
