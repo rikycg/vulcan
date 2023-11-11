@@ -1,4 +1,4 @@
-## Vulcan Template
+## Vulcan Template 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Feel free to utilize this for your personal website. I'm continuously enhancing it, which means you can look forward to exciting updates in the future. This project is my journey through learning ReactJs from the ground up, and it has been an incredible experience.
