@@ -5,14 +5,18 @@ export class HttpBase implements IHttpBase {
     return fetch(url);
   }
 
-  post(url: string, body: any, options?: any): Promise<Response> {
-    const { headers } = options;
-
-    return fetch(url, {
+  async post(url: string, body: any, options?: any): Promise<Response> {
+    const headers = options?.headers || {};
+    const response = await fetch(url, {
       method: 'POST',
       body: JSON.stringify(body),
-      headers,
+      headers: {
+        'Content-Type': 'application/json',
+        ...headers,
+      },
     });
+
+    return response;
   }
 
   put(url: string, body: any): Promise<Response> {

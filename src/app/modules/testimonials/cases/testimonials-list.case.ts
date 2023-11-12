@@ -1,4 +1,4 @@
-import { Case } from '@/app/core/interfaces/case.interface';
+import { Case } from '../../../../../core/interfaces/case.interface';
 
 import { Testimonial } from '../entities/testimonial.entity';
 import { TestimonialsRepository } from '../repositories/testimonials.repository';

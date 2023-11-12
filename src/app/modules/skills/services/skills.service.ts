@@ -1,4 +1,4 @@
-import { dbService } from '@/app/core/services/db.service';
+import { dbService } from '../../../../../core/services/db.service';
 import { SkillsRepository } from '../repositories/skills.repository';
 
 export class SkillsService extends SkillsRepository {

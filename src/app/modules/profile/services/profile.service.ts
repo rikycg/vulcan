@@ -1,4 +1,4 @@
-import { dbService } from '@/app/core/services/db.service';
+import { dbService } from '../../../../../core/services/db.service';
 
 import { ProfileRepository } from '../repositories/profile.respository';
 import { Profile } from '../entities/profile.entity';

@@ -1,4 +1,4 @@
-import { dbService } from '@/app/core/services/db.service';
+import { dbService } from '../../../../../core/services/db.service';
 
 import { TestimonialsRepository } from '../repositories/testimonials.repository';
 

@@ -1,4 +1,4 @@
-import { dbService } from '@/app/core/services/db.service';
+import { dbService } from '../../../../../core/services/db.service';
 import { SocialNetworksRepository } from '../repositories/social-networks.repository';
 
 export class SocialNetworksService extends SocialNetworksRepository {

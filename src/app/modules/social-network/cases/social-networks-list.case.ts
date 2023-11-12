@@ -1,4 +1,4 @@
-import { Case } from '@/app/core/interfaces/case.interface';
+import { Case } from '../../../../../core/interfaces/case.interface';
 
 import { SocialNetwork } from '../entities/social-network.entity';
 import { SocialNetworksRepository } from '../repositories/social-networks.repository';

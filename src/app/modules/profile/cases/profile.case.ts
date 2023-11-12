@@ -1,4 +1,4 @@
-import { Case } from '@/app/core/interfaces/case.interface';
+import { Case } from '../../../../../core/interfaces/case.interface';
 
 import { Profile } from '../entities/profile.entity';
 import { ProfileRepository } from '../repositories/profile.respository';

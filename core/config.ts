@@ -10,3 +10,9 @@ export const firebaseConfig = {
 export const sparkPostConfig = {
   key: process.env.NEXT_PUBLIC_SPARKPOST_API_KEY,
 }
+
+const baseUrl = '/api';
+
+export const apiConfig = {
+  sendMessage: `${baseUrl}/send-message`,
+}

@@ -1,5 +1,5 @@
-import { DbVendorNames } from '@/app/infra/db/enums/db-vendor-names.enum';
-import { getDB } from '@/app/infra/db/db.factory';
+import { DbVendorNames } from '../../infra/db/enums/db-vendor-names.enum';
+import { getDB } from '../../infra/db/db.factory';
 
 import { firebaseConfig } from '../config';
 
