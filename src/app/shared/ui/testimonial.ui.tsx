@@ -13,10 +13,10 @@ export function Testimonial({ name, text, company, position, className }: Testim
     <div>
       <p>{ text }</p>
       <div className='flex mt-3'>
-        <span className="border-[1px] rounded w-[40px] h-[40px] flex justify-center items-center ">
+        <span className='border-[1px] rounded w-[40px] h-[40px] flex justify-center items-center'>
           <FaLinkedinIn />
         </span>
-        <div className='flex flex-col ml-3'>
+        <div className='flex flex-col ml-3 flex-1'>
           <b>{ name }</b>
           <span>
             { position }
