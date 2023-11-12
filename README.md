@@ -66,4 +66,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Demo
-To see the template in action, visit the live demo at [rikycg.com](rikycg.com). This demo provides a real-world example of how the template functions and appears with live data.
+To see the template in action, visit the live demo at [rikycg.com](https://rikycg.com). This demo provides a real-world example of how the template functions and appears with live data.
